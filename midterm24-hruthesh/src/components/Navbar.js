@@ -50,9 +50,6 @@ const Navbar = () => {
                     ) : (
                         <>
                             <Button color="inherit">
-                                <NavLink to="/members">Members</NavLink>
-                            </Button>
-                            <Button color="inherit">
                                 <NavLink to="/admin">Admin</NavLink>
                             </Button>
                             <Button color="inherit" onClick={handleLogout}>Logout</Button>

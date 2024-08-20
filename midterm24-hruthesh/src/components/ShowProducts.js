@@ -103,8 +103,8 @@ function ShowProducts() {
       name: 'Actions',
       cell: row => (
         <button onClick={() => {
-          navigate(`/Home/${row._id}`); // Update URL
-          viewProductDetails(row._id); // Fetch product details
+          navigate(`/Home/${row._id}`); 
+          viewProductDetails(row._id); 
         }}>View Details</button>
       ),
       ignoreRowClick: true,
